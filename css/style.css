@@ -30,7 +30,7 @@ body {
     max-width: 1400px;
     padding: 0 10px;
     margin: 0 auto;
-    background-color: yellowgreen;
+    background-color: #FFF;
 }
 
 .header__inner {
@@ -69,7 +69,17 @@ body {
     text-transform: uppercase;
 }
 
+.phone__img {
+    width: 20px;
+    height: 20px;
+}
+
 .header__phone {
+    display: flex;
+    align-items: center;
     margin: 0 11px;
 }
 
+.phone__btn{
+    margin: 22px;
+}
