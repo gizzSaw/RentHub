@@ -27,8 +27,8 @@ body {
 }
 
 .container {
-    max-width: 1400px;
-    padding: 0 10px;
+    max-width: 1380px;
+    padding: 0 0;
     margin: 0 auto;
     background-color: #FFF;
 }
@@ -38,6 +38,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    margin-left: 4px;
+}
+
 .header__left {
     display: flex;
     align-items: center;
@@ -82,4 +87,174 @@ body {
 
 .phone__btn{
     margin: 22px;
+}
+
+/*car slider section*/
+.car__inner {
+    padding-bottom: 53px;
+    color: #252525;
+    background-color: #F8F8F8;
+    height: 464px;
+    margin-bottom: 0px;
+}
+
+.car__slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car__slide {
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.car__info {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    max-width: 654px;
+    margin-left: 80px;
+    height: 100%;
+}
+
+
+.car__title {
+    margin-top: 104px;
+    margin-bottom: 32px;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 119%;
+    text-transform: uppercase;
+}   
+
+.order__btn {
+    margin: 0;
+}
+
+.car__img {
+    padding-left: 500px;
+}
+
+.car__slider .slick-dots{
+    position: absolute;
+    padding: 0;
+    display: flex;
+    bottom: 64px;
+    left: 50%;
+
+}
+
+.car__slider .slick-dots button {
+    font-size: 0;
+    padding: 0;
+    border: none;
+    background-color: #CFCFCF;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.slick-dots button:hover,
+.slick-active button {
+    background-color: #83AEEF;
+}
+
+.car__subtitle {
+    align-items: center;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.car__subtitle span {
+    color: #427ccf;
+}
+
+/* cards section */
+.cards__inner {
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+.card {
+    box-sizing: border-box;
+    flex-basis: 20%;
+    padding: 20px;
+    margin: 9px;
+    width: 323px;
+    border-radius: 10px;
+    height: 446px;
+    background: #FFFFFF;
+    box-shadow: -1px 6px 10px rgba(40, 104, 183, 0.2);
+}
+
+
+
+.card__title, .card__subtitle {
+    margin: 0;
+    
+}
+
+.card__title {
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.card__subtitle {
+    color: #252525;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.card__params-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.card__param {
+    display: flex;
+    align-items: center;
+}
+
+.card__param-icon {
+    margin-right: 10px;
+}
+
+.card__price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__price-info {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #252525;
+}
+
+.card__price-btn {
+    flex-basis: 50%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 13px 24px;
+    margin-right: 0;
+    margin-left: 0px;
+}
+
+.card__img {
+    box-sizing: border-box;
+    width: 100%;
 }
